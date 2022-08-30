@@ -4,7 +4,8 @@ import 'package:flutter_unit_test_workshop_1/domain/models/area.dart';
 void main() {
   late Area area;
 
-  setUpAll(() {
+  setUp(() {
+    print('Se llama por cada prueba');
     area = Area();
   });
 
