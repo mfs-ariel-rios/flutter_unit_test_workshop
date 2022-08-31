@@ -5,7 +5,6 @@ void main() {
   late Area area;
 
   setUp(() {
-    print('Se llama por cada prueba');
     area = Area();
   });
 
